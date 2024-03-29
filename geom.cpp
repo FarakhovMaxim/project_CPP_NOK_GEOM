@@ -53,4 +53,5 @@ int geom() {
         }
     }
     std::cout << "Поздравления, " << name;
+    return 1;
 }
