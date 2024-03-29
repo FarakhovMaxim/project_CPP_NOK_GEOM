@@ -14,7 +14,7 @@ int nok(int a, int b)
     return m / (a + b);
 }
 
-int main() {
+int nok_main() {
     int a, b, c, input_answer, answer;
 
     std::cout << "Добро пожаловать в игру \"Мозговые игры\"!" << std::endl;
@@ -42,5 +42,4 @@ int main() {
         }
     }
     std::cout << "Поздравления, " << name;
-    return 0;
 }
