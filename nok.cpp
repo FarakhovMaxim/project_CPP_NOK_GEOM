@@ -42,4 +42,5 @@ int nok_main() {
         }
     }
     std::cout << "Поздравления, " << name;
+    return 1;
 }
