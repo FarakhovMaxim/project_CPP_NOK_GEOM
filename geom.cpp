@@ -32,7 +32,7 @@ int r() {
     return pow(num, n + 1);
 }
 
-int main() {
+int geom() {
     std::cout << "Добро пожаловать в игру \"Мозговые игры\"!" << std::endl;
     std::cout << "Какое имя вы бы хотели?" << std::endl;
     std::string name;
@@ -53,5 +53,4 @@ int main() {
         }
     }
     std::cout << "Поздравления, " << name;
-    return 0;
 }
